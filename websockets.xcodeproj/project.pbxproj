@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DD0D673187BA6AD005B04DA /* base64-decode.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0D65B187BA6AD005B04DA /* base64-decode.c */; };
+		1DD0D674187BA6AD005B04DA /* client-handshake.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0D65C187BA6AD005B04DA /* client-handshake.c */; };
+		1DD0D675187BA6AD005B04DA /* client-parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0D65D187BA6AD005B04DA /* client-parser.c */; };
+		1DD0D676187BA6AD005B04DA /* client.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0D65E187BA6AD005B04DA /* client.c */; };
+		1DD0D677187BA6AD005B04DA /* daemonize.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0D660187BA6AD005B04DA /* daemonize.c */; };
+		1DD0D678187BA6AD005B04DA /* extension-deflate-frame.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0D661187BA6AD005B04DA /* extension-deflate-frame.c */; };
+		1DD0D679187BA6AD005B04DA /* extension-deflate-stream.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0D663187BA6AD005B04DA /* extension-deflate-stream.c */; };
+		1DD0D67A187BA6AD005B04DA /* extension.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0D665187BA6AD005B04DA /* extension.c */; };
+		1DD0D67B187BA6AD005B04DA /* getifaddrs.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0D666187BA6AD005B04DA /* getifaddrs.c */; };
+		1DD0D67C187BA6AD005B04DA /* handshake.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0D668187BA6AD005B04DA /* handshake.c */; };
+		1DD0D67D187BA6AD005B04DA /* libwebsockets.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0D66A187BA6AD005B04DA /* libwebsockets.c */; };
+		1DD0D67E187BA6AD005B04DA /* minilex.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0D66C187BA6AD005B04DA /* minilex.c */; };
+		1DD0D67F187BA6AD005B04DA /* output.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0D66D187BA6AD005B04DA /* output.c */; };
+		1DD0D680187BA6AD005B04DA /* parsers.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0D66E187BA6AD005B04DA /* parsers.c */; };
+		1DD0D681187BA6AD005B04DA /* server-handshake.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0D670187BA6AD005B04DA /* server-handshake.c */; };
+		1DD0D682187BA6AD005B04DA /* server.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0D671187BA6AD005B04DA /* server.c */; };
+		1DD0D683187BA6AD005B04DA /* sha-1.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0D672187BA6AD005B04DA /* sha-1.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1D8ACDB715A12E3C008D3894 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1D8ACDB915A12E3C008D3894 /* libwebsockets.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libwebsockets.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD0D65B187BA6AD005B04DA /* base64-decode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "base64-decode.c"; sourceTree = "<group>"; };
+		1DD0D65C187BA6AD005B04DA /* client-handshake.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "client-handshake.c"; sourceTree = "<group>"; };
+		1DD0D65D187BA6AD005B04DA /* client-parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "client-parser.c"; sourceTree = "<group>"; };
+		1DD0D65E187BA6AD005B04DA /* client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = client.c; sourceTree = "<group>"; };
+		1DD0D65F187BA6AD005B04DA /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		1DD0D660187BA6AD005B04DA /* daemonize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = daemonize.c; sourceTree = "<group>"; };
+		1DD0D661187BA6AD005B04DA /* extension-deflate-frame.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "extension-deflate-frame.c"; sourceTree = "<group>"; };
+		1DD0D662187BA6AD005B04DA /* extension-deflate-frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "extension-deflate-frame.h"; sourceTree = "<group>"; };
+		1DD0D663187BA6AD005B04DA /* extension-deflate-stream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "extension-deflate-stream.c"; sourceTree = "<group>"; };
+		1DD0D664187BA6AD005B04DA /* extension-deflate-stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "extension-deflate-stream.h"; sourceTree = "<group>"; };
+		1DD0D665187BA6AD005B04DA /* extension.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = extension.c; sourceTree = "<group>"; };
+		1DD0D666187BA6AD005B04DA /* getifaddrs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getifaddrs.c; sourceTree = "<group>"; };
+		1DD0D667187BA6AD005B04DA /* getifaddrs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getifaddrs.h; sourceTree = "<group>"; };
+		1DD0D668187BA6AD005B04DA /* handshake.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = handshake.c; sourceTree = "<group>"; };
+		1DD0D669187BA6AD005B04DA /* lextable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lextable.h; sourceTree = "<group>"; };
+		1DD0D66A187BA6AD005B04DA /* libwebsockets.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libwebsockets.c; sourceTree = "<group>"; };
+		1DD0D66B187BA6AD005B04DA /* libwebsockets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libwebsockets.h; sourceTree = "<group>"; };
+		1DD0D66C187BA6AD005B04DA /* minilex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = minilex.c; sourceTree = "<group>"; };
+		1DD0D66D187BA6AD005B04DA /* output.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = output.c; sourceTree = "<group>"; };
+		1DD0D66E187BA6AD005B04DA /* parsers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = parsers.c; sourceTree = "<group>"; };
+		1DD0D66F187BA6AD005B04DA /* private-libwebsockets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "private-libwebsockets.h"; sourceTree = "<group>"; };
+		1DD0D670187BA6AD005B04DA /* server-handshake.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "server-handshake.c"; sourceTree = "<group>"; };
+		1DD0D671187BA6AD005B04DA /* server.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = server.c; sourceTree = "<group>"; };
+		1DD0D672187BA6AD005B04DA /* sha-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "sha-1.c"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D8ACDB615A12E3C008D3894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D8ACDAE15A12E3C008D3894 = {
+			isa = PBXGroup;
+			children = (
+				1DD0D659187BA6AD005B04DA /* lib */,
+				1D8ACDBA15A12E3C008D3894 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D8ACDBA15A12E3C008D3894 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D8ACDB915A12E3C008D3894 /* libwebsockets.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DD0D659187BA6AD005B04DA /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				1DD0D65B187BA6AD005B04DA /* base64-decode.c */,
+				1DD0D65C187BA6AD005B04DA /* client-handshake.c */,
+				1DD0D65D187BA6AD005B04DA /* client-parser.c */,
+				1DD0D65E187BA6AD005B04DA /* client.c */,
+				1DD0D65F187BA6AD005B04DA /* config.h */,
+				1DD0D660187BA6AD005B04DA /* daemonize.c */,
+				1DD0D661187BA6AD005B04DA /* extension-deflate-frame.c */,
+				1DD0D662187BA6AD005B04DA /* extension-deflate-frame.h */,
+				1DD0D663187BA6AD005B04DA /* extension-deflate-stream.c */,
+				1DD0D664187BA6AD005B04DA /* extension-deflate-stream.h */,
+				1DD0D665187BA6AD005B04DA /* extension.c */,
+				1DD0D666187BA6AD005B04DA /* getifaddrs.c */,
+				1DD0D667187BA6AD005B04DA /* getifaddrs.h */,
+				1DD0D668187BA6AD005B04DA /* handshake.c */,
+				1DD0D669187BA6AD005B04DA /* lextable.h */,
+				1DD0D66A187BA6AD005B04DA /* libwebsockets.c */,
+				1DD0D66B187BA6AD005B04DA /* libwebsockets.h */,
+				1DD0D66C187BA6AD005B04DA /* minilex.c */,
+				1DD0D66D187BA6AD005B04DA /* output.c */,
+				1DD0D66E187BA6AD005B04DA /* parsers.c */,
+				1DD0D66F187BA6AD005B04DA /* private-libwebsockets.h */,
+				1DD0D670187BA6AD005B04DA /* server-handshake.c */,
+				1DD0D671187BA6AD005B04DA /* server.c */,
+				1DD0D672187BA6AD005B04DA /* sha-1.c */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D8ACDB815A12E3C008D3894 /* websockets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D8ACDC715A12E3C008D3894 /* Build configuration list for PBXNativeTarget "websockets" */;
+			buildPhases = (
+				1D8ACDB515A12E3C008D3894 /* Sources */,
+				1D8ACDB615A12E3C008D3894 /* Frameworks */,
+				1D8ACDB715A12E3C008D3894 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = websockets;
+			productName = minilzo;
+			productReference = 1D8ACDB915A12E3C008D3894 /* libwebsockets.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D8ACDB015A12E3C008D3894 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = doorxp;
+			};
+			buildConfigurationList = 1D8ACDB315A12E3C008D3894 /* Build configuration list for PBXProject "websockets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1D8ACDAE15A12E3C008D3894;
+			productRefGroup = 1D8ACDBA15A12E3C008D3894 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D8ACDB815A12E3C008D3894 /* websockets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D8ACDB515A12E3C008D3894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD0D682187BA6AD005B04DA /* server.c in Sources */,
+				1DD0D677187BA6AD005B04DA /* daemonize.c in Sources */,
+				1DD0D67D187BA6AD005B04DA /* libwebsockets.c in Sources */,
+				1DD0D67A187BA6AD005B04DA /* extension.c in Sources */,
+				1DD0D681187BA6AD005B04DA /* server-handshake.c in Sources */,
+				1DD0D679187BA6AD005B04DA /* extension-deflate-stream.c in Sources */,
+				1DD0D676187BA6AD005B04DA /* client.c in Sources */,
+				1DD0D674187BA6AD005B04DA /* client-handshake.c in Sources */,
+				1DD0D67C187BA6AD005B04DA /* handshake.c in Sources */,
+				1DD0D683187BA6AD005B04DA /* sha-1.c in Sources */,
+				1DD0D678187BA6AD005B04DA /* extension-deflate-frame.c in Sources */,
+				1DD0D67E187BA6AD005B04DA /* minilex.c in Sources */,
+				1DD0D67F187BA6AD005B04DA /* output.c in Sources */,
+				1DD0D673187BA6AD005B04DA /* base64-decode.c in Sources */,
+				1DD0D67B187BA6AD005B04DA /* getifaddrs.c in Sources */,
+				1DD0D680187BA6AD005B04DA /* parsers.c in Sources */,
+				1DD0D675187BA6AD005B04DA /* client-parser.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D8ACDC515A12E3C008D3894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D8ACDC615A12E3C008D3894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D8ACDC815A12E3C008D3894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/minilzo.dst;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = websockets;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1D8ACDC915A12E3C008D3894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/minilzo.dst;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = websockets;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D8ACDB315A12E3C008D3894 /* Build configuration list for PBXProject "websockets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D8ACDC515A12E3C008D3894 /* Debug */,
+				1D8ACDC615A12E3C008D3894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D8ACDC715A12E3C008D3894 /* Build configuration list for PBXNativeTarget "websockets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D8ACDC815A12E3C008D3894 /* Debug */,
+				1D8ACDC915A12E3C008D3894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D8ACDB015A12E3C008D3894 /* Project object */;
+}

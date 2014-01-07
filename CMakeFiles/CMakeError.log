@@ -1,0 +1,107 @@
+Performing C SOURCE FILE Test HAVE_inline failed with the following output:
+Change Dir: /Volumes/f/Users/doorxp/libwebsockets/CMakeFiles/CMakeTmp
+
+Run Build Command:/Volumes/e/Applications/Xcode51-DP.app/Contents/Developer/usr/bin/make "cmTryCompileExec2567923375/fast"
+/Volumes/e/Applications/Xcode51-DP.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2567923375.dir/build.make CMakeFiles/cmTryCompileExec2567923375.dir/build
+/usr/local/Cellar/cmake/2.8.11.1/bin/cmake -E cmake_progress_report /Volumes/f/Users/doorxp/libwebsockets/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2567923375.dir/src.c.o
+/usr/bin/cc  -DKEYWORD=inline -DHAVE_inline -isysroot /Volumes/e/Applications/Xcode51-DP.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec2567923375.dir/src.c.o   -c /Volumes/f/Users/doorxp/libwebsockets/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2567923375
+/usr/local/Cellar/cmake/2.8.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2567923375.dir/link.txt --verbose=1
+/usr/bin/cc     -DHAVE_inline -isysroot /Volumes/e/Applications/Xcode51-DP.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec2567923375.dir/src.c.o  -o cmTryCompileExec2567923375  
+Undefined symbols for architecture x86_64:
+  "_a", referenced from:
+      _main in src.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTryCompileExec2567923375] Error 1
+make: *** [cmTryCompileExec2567923375/fast] Error 2
+
+Source file was:
+
+		#include <stdio.h>
+		KEYWORD void a() {}
+		int main(int argc, char **argv) { a(); return 0; }
+		
+Performing C SOURCE FILE Test HAVE___inline__ failed with the following output:
+Change Dir: /Volumes/f/Users/doorxp/libwebsockets/CMakeFiles/CMakeTmp
+
+Run Build Command:/Volumes/e/Applications/Xcode51-DP.app/Contents/Developer/usr/bin/make "cmTryCompileExec3121970801/fast"
+/Volumes/e/Applications/Xcode51-DP.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3121970801.dir/build.make CMakeFiles/cmTryCompileExec3121970801.dir/build
+/usr/local/Cellar/cmake/2.8.11.1/bin/cmake -E cmake_progress_report /Volumes/f/Users/doorxp/libwebsockets/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3121970801.dir/src.c.o
+/usr/bin/cc  -DKEYWORD=__inline__ -DHAVE___inline__ -isysroot /Volumes/e/Applications/Xcode51-DP.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec3121970801.dir/src.c.o   -c /Volumes/f/Users/doorxp/libwebsockets/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3121970801
+/usr/local/Cellar/cmake/2.8.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3121970801.dir/link.txt --verbose=1
+/usr/bin/cc     -DHAVE___inline__ -isysroot /Volumes/e/Applications/Xcode51-DP.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3121970801.dir/src.c.o  -o cmTryCompileExec3121970801  
+Undefined symbols for architecture x86_64:
+  "_a", referenced from:
+      _main in src.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTryCompileExec3121970801] Error 1
+make: *** [cmTryCompileExec3121970801/fast] Error 2
+
+Source file was:
+
+		#include <stdio.h>
+		KEYWORD void a() {}
+		int main(int argc, char **argv) { a(); return 0; }
+		
+Performing C SOURCE FILE Test HAVE___inline failed with the following output:
+Change Dir: /Volumes/f/Users/doorxp/libwebsockets/CMakeFiles/CMakeTmp
+
+Run Build Command:/Volumes/e/Applications/Xcode51-DP.app/Contents/Developer/usr/bin/make "cmTryCompileExec1574972277/fast"
+/Volumes/e/Applications/Xcode51-DP.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1574972277.dir/build.make CMakeFiles/cmTryCompileExec1574972277.dir/build
+/usr/local/Cellar/cmake/2.8.11.1/bin/cmake -E cmake_progress_report /Volumes/f/Users/doorxp/libwebsockets/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1574972277.dir/src.c.o
+/usr/bin/cc  -DKEYWORD=__inline -DHAVE___inline -isysroot /Volumes/e/Applications/Xcode51-DP.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec1574972277.dir/src.c.o   -c /Volumes/f/Users/doorxp/libwebsockets/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1574972277
+/usr/local/Cellar/cmake/2.8.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1574972277.dir/link.txt --verbose=1
+/usr/bin/cc     -DHAVE___inline -isysroot /Volumes/e/Applications/Xcode51-DP.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1574972277.dir/src.c.o  -o cmTryCompileExec1574972277  
+Undefined symbols for architecture x86_64:
+  "_a", referenced from:
+      _main in src.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTryCompileExec1574972277] Error 1
+make: *** [cmTryCompileExec1574972277/fast] Error 2
+
+Source file was:
+
+		#include <stdio.h>
+		KEYWORD void a() {}
+		int main(int argc, char **argv) { a(); return 0; }
+		
+Determining if the include file sys/prctl.h exists failed with the following output:
+Change Dir: /Volumes/f/Users/doorxp/libwebsockets/CMakeFiles/CMakeTmp
+
+Run Build Command:/Volumes/e/Applications/Xcode51-DP.app/Contents/Developer/usr/bin/make "cmTryCompileExec1400267633/fast"
+/Volumes/e/Applications/Xcode51-DP.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1400267633.dir/build.make CMakeFiles/cmTryCompileExec1400267633.dir/build
+/usr/local/Cellar/cmake/2.8.11.1/bin/cmake -E cmake_progress_report /Volumes/f/Users/doorxp/libwebsockets/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1400267633.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline -isysroot /Volumes/e/Applications/Xcode51-DP.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec1400267633.dir/CheckIncludeFile.c.o   -c /Volumes/f/Users/doorxp/libwebsockets/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Volumes/f/Users/doorxp/libwebsockets/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'sys/prctl.h' file not found
+#include <sys/prctl.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec1400267633.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec1400267633/fast] Error 2
+
+
+Determining if the include file vfork.h exists failed with the following output:
+Change Dir: /Volumes/f/Users/doorxp/libwebsockets/CMakeFiles/CMakeTmp
+
+Run Build Command:/Volumes/e/Applications/Xcode51-DP.app/Contents/Developer/usr/bin/make "cmTryCompileExec2226019714/fast"
+/Volumes/e/Applications/Xcode51-DP.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2226019714.dir/build.make CMakeFiles/cmTryCompileExec2226019714.dir/build
+/usr/local/Cellar/cmake/2.8.11.1/bin/cmake -E cmake_progress_report /Volumes/f/Users/doorxp/libwebsockets/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2226019714.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline -isysroot /Volumes/e/Applications/Xcode51-DP.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec2226019714.dir/CheckIncludeFile.c.o   -c /Volumes/f/Users/doorxp/libwebsockets/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Volumes/f/Users/doorxp/libwebsockets/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'vfork.h' file not found
+#include <vfork.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec2226019714.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec2226019714/fast] Error 2
+
+

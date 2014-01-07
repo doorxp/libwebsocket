@@ -1,0 +1,9 @@
+/Volumes/f/Users/doorxp/libwebsockets/CMakeFiles/dist.dir
+/Volumes/f/Users/doorxp/libwebsockets/CMakeFiles/test-client.dir
+/Volumes/f/Users/doorxp/libwebsockets/CMakeFiles/test-echo.dir
+/Volumes/f/Users/doorxp/libwebsockets/CMakeFiles/test-fraggle.dir
+/Volumes/f/Users/doorxp/libwebsockets/CMakeFiles/test-ping.dir
+/Volumes/f/Users/doorxp/libwebsockets/CMakeFiles/test-server.dir
+/Volumes/f/Users/doorxp/libwebsockets/CMakeFiles/test-server-extpoll.dir
+/Volumes/f/Users/doorxp/libwebsockets/CMakeFiles/websockets.dir
+/Volumes/f/Users/doorxp/libwebsockets/CMakeFiles/websockets_shared.dir

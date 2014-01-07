@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>621C65B5-C3A3-4A66-A218-34AC46765C16</string>
+	<key>IDESourceControlProjectName</key>
+	<string>minilzo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B51F5641-D54C-4BAA-BD20-EBE6AF8BC15E</key>
+		<string>git://git.libwebsockets.org/libwebsockets</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>minilzo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B51F5641-D54C-4BAA-BD20-EBE6AF8BC15E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>git://git.libwebsockets.org/libwebsockets</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B51F5641-D54C-4BAA-BD20-EBE6AF8BC15E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B51F5641-D54C-4BAA-BD20-EBE6AF8BC15E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>libwebsockets</string>
+		</dict>
+	</array>
+</dict>
+</plist>
